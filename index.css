@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #014E56;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 600px;
+    margin-right: 50px;
+}
+
+.header ul li a{
+    color: #FFFFFF;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;    
+}
+
+.header button{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;    
+}
+
+.header button:hover{
+    background-color: white;
+    color: #014E56;
+}
+
+.first{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first h1{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.first p{
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.second{
+    background-color: rgba(0, 64, 71, 1);
+    padding-top: 70px;
+    padding-bottom: 170px;
+}
+
+.second h2{
+    text-align: center;       
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 60px;    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 350px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(1, 47, 52, 1);
+}
+
+.card h3{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(121, 200, 199, 1);    
+}
+
+.card p{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.card button{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: rgba(246, 126, 126, 1);
+    border: 0;
+    padding: 0;
+    color: rgba(1, 47, 52, 1);
+    font-size: 150%;
+    margin-bottom: -18px;
+}
+
+.third{
+    background-color: rgba(1, 47, 52, 1);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.third h2{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;    
+}
+
+.smallthird{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallthird img{
+    height: 22px;
+}
+
+.four{
+    background-color: rgba(246, 126, 126, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.smallfour{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallfour h2{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(1, 47, 52, 1);    
+}
+
+.smallfour button{
+    width: 150px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid rgba(1, 47, 52, 1);
+    color: rgba(1, 47, 52, 1);
+    background-color: transparent;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;    
+}
+
+.smallfour button:hover{
+    background-color: rgba(1, 47, 52, 1);
+    color: rgba(246, 126, 126, 1);
+}
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+    .container{
+        width: 900px;
+    }
+
+    .header ul{
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 910px) {
+    .container{
+        width: 750px;
+    }
+
+    .first h1{
+        font-size: 58px;
+    }
+
+    .first p{
+        font-size: 14px;
+    }
+
+    .smallthird img{
+        height: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 680px;
+    }
+
+    .header ul{
+        margin-left: 200px;
+    }
+
+    .first{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first h1{
+        text-align: center;
+    }
+
+    .first p{
+        text-align: center;
+    }
+
+    .wrapper{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .card{
+        width: 280px;
+        height: 280px;
+    }
+
+    .smallthird img{
+        height: 15px;
+    }
+}
+
+@media (max-width: 705px) {
+    .container{
+        width: 550px;
+    }
+
+    .header ul{
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .container{
+        width: 400px;
+    }   
+
+    .header img{
+        width: 120px;
+    }
+
+    .header ul{
+        margin-right: 20px;
+        gap: 5px;
+    }
+
+    .smallthird{
+        gap: 6px;
+    }
+
+    .smallthird img{
+        height: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        width: 328px;
+    }
+
+    .smallthird{
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smallthird img{
+        width: 160px;
+    }
+}
